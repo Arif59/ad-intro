@@ -1,0 +1,45 @@
+body {
+  font-family: 'Cutive Mono', monospace;
+  /*font-family: 'Inconsolata', monospace;*/
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.first, .second {
+  color: rgba(255,255,255,0.8);
+  font-size: 1.3em;
+  /*white-space: pre*/
+}
+
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+  background: #fff;
+  color: #fff;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
