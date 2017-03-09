@@ -6,10 +6,10 @@ $( document ).ready(function() {
 	  backSpeed: -10,
 	  startDelay: 1500
 	});
-	setTimeout(function() {
-    	$('.typed-cursor').fadeOut(500);
+// 	setTimeout(function() {
+//     	$('.typed-cursor').fadeOut(500);
 
-  }, 8000);
+//   }, 8000);
 //   setTimeout(function() {
 //   	$('.player').trigger("pause");
 //   }, 3000);
