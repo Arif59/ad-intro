@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 	$('.player').trigger("pause");
 	$(".first").typed({
-	  strings: ["Every day comes with 86,400 seconds ^1000", "^500 Tick tock",""],
+	  strings: ["Every day comes with 86,400 seconds ^1000", "^500 Tick tock ^1000", ""],
 	  typeSpeed: 0,
 	  backSpeed: -10,
 	  startDelay: 1500
